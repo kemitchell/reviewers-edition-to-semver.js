@@ -1,4 +1,4 @@
-```javscript
+```javascript
 var toSemVer = require('reviewers-edition-to-semver')
 var assert = require('assert')
 
