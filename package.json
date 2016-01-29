@@ -1,0 +1,24 @@
+{
+  "name": "reviewers-edition-to-semver",
+  "description": "convert Reviewers Editions to loose Semantic Versioning equivalents",
+  "version": "0.0.0",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "dependencies": {
+    "reviewers-edition-parse": "^2.0.3"
+  },
+  "devDependencies": {
+    "defence-cli": "^1.0.5",
+    "replace-require-self": "^1.1.0"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "package.json"
+  ],
+  "license": "MIT",
+  "repository": "kemitchell/reviewers-edition-to-semver.js",
+  "scripts": {
+    "test": "defence README.md | replace-require-self | node"
+  }
+}
