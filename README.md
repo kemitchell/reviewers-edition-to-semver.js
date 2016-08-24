@@ -14,7 +14,7 @@ assert.equal(toSemVer('1e1c1d'), '1.0.1-1')
 
 assert.equal(toSemVer('1e1d'), '1.0.0-1')
 
-assert.throws(
-  function() { toSemVer('garbage') },
-  /Invalid Reviewers Edition: "garbage"/)
+assert.throws(function() {
+  toSemVer('garbage')
+}, /Invalid Reviewers Edition: "garbage"/)
 ```
