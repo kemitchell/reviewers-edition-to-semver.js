@@ -1,7 +1,7 @@
 {
   "name": "reviewers-edition-to-semver",
   "description": "convert Reviewers Editions to loose Semantic Versioning equivalents",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "dependencies": {
     "reviewers-edition-parse": "^2.0.3"
