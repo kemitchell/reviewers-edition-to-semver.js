@@ -11,9 +11,11 @@
     "replace-require-self": "^1.1.0",
     "standard": "^8.0.0"
   },
+  "bin": "bin.js",
   "files": [
     "LICENSE",
     "README.md",
+    "bin.js",
     "index.js",
     "package.json"
   ],
